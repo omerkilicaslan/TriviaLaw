@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  TriviaView.swift
 //  StoreProject2
 //
 //  Created by Ömer Faruk Kılıçaslan on 28.04.2023.
@@ -7,15 +7,14 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct TriviaView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        QuestionView()
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct TriviaView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        TriviaView()
     }
 }
