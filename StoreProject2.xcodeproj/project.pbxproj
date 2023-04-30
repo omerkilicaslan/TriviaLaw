@@ -18,6 +18,8 @@
 		66CD5EB129FC32A0003145E7 /* Answer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CD5EB029FC32A0003145E7 /* Answer.swift */; };
 		66CD5EB329FC32D3003145E7 /* AnswerRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CD5EB229FC32D3003145E7 /* AnswerRow.swift */; };
 		66CD5EB529FC376E003145E7 /* TriviaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CD5EB429FC376E003145E7 /* TriviaView.swift */; };
+		66CD5EB729FDA3A6003145E7 /* Trivia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CD5EB629FDA3A6003145E7 /* Trivia.swift */; };
+		66CD5EB929FDA678003145E7 /* TriviaManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CD5EB829FDA678003145E7 /* TriviaManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +35,8 @@
 		66CD5EB029FC32A0003145E7 /* Answer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Answer.swift; sourceTree = "<group>"; };
 		66CD5EB229FC32D3003145E7 /* AnswerRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerRow.swift; sourceTree = "<group>"; };
 		66CD5EB429FC376E003145E7 /* TriviaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriviaView.swift; sourceTree = "<group>"; };
+		66CD5EB629FDA3A6003145E7 /* Trivia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trivia.swift; sourceTree = "<group>"; };
+		66CD5EB829FDA678003145E7 /* TriviaManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriviaManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +76,7 @@
 				66CD5E9B29FC2E6B003145E7 /* Assets.xcassets */,
 				66CD5E9D29FC2E6B003145E7 /* Preview Content */,
 				66CD5EA929FC30CB003145E7 /* Extensions.swift */,
+				66CD5EB829FDA678003145E7 /* TriviaManager.swift */,
 			);
 			path = StoreProject2;
 			sourceTree = "<group>";
@@ -108,6 +113,7 @@
 			isa = PBXGroup;
 			children = (
 				66CD5EB029FC32A0003145E7 /* Answer.swift */,
+				66CD5EB629FDA3A6003145E7 /* Trivia.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -184,7 +190,9 @@
 			files = (
 				66CD5EAC29FC3142003145E7 /* QuestionView.swift in Sources */,
 				66CD5EB529FC376E003145E7 /* TriviaView.swift in Sources */,
+				66CD5EB729FDA3A6003145E7 /* Trivia.swift in Sources */,
 				66CD5EA729FC2FEC003145E7 /* PrimaryButton.swift in Sources */,
+				66CD5EB929FDA678003145E7 /* TriviaManager.swift in Sources */,
 				66CD5EB329FC32D3003145E7 /* AnswerRow.swift in Sources */,
 				66CD5E9A29FC2E67003145E7 /* ContentView.swift in Sources */,
 				66CD5EB129FC32A0003145E7 /* Answer.swift in Sources */,
