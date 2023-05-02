@@ -82,4 +82,12 @@ class TriviaManager: ObservableObject {
             score += 1
         }
     }
+    
+    func highlightAllAnswers(answer: Answer) {
+        let currentTriviaQuestion = trivia[index]
+        
+        if answer.text == currentTriviaQuestion.correctAnswer{
+           //????
+        }
+    }
 }

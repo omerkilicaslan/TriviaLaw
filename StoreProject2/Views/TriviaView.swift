@@ -22,11 +22,22 @@ struct TriviaView: View {
                 
                 Button {
                     Task.init {
-                        await triviaManager.fetchTrivia
+                        await triviaManager.fetchTrivia()
+                        QuestionView()
+                            
                     }
                 } label: {
                     PrimaryButton(text: "Play Again")
                 }
+                
+                NavigationLink {
+                   WelcomeView()
+                    
+                } label: {
+                    PrimaryButton(text: "Go To Main Page")
+                }
+                .navigationBarBackButtonHidden(true)
+
 
             }
             .foregroundColor(Color("AccentColor"))
@@ -34,7 +45,7 @@ struct TriviaView: View {
             .frame(maxWidth: .infinity, maxHeight: .infinity)
             .background(Color(red: 0.9, green: 0.92, blue: 0.84))
             .navigationBarHidden(true)
-            
+
 
 
         } else {

@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct WelcomeView: View {
     @StateObject var triviaManager = TriviaManager()
     
     var body: some View {
@@ -32,12 +32,14 @@ struct ContentView: View {
             .frame(maxWidth: .infinity, maxHeight: .infinity)
             .edgesIgnoringSafeArea(.all)
             .background(Color(red: 0.9, green: 0.92, blue: 0.84))
+            
+
         }
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        WelcomeView()
     }
 }

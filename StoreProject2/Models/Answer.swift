@@ -7,8 +7,8 @@
 
 import Foundation
 
-struct Answer: Identifiable {
+struct Answer: Identifiable, Equatable {
     var id = UUID()
-    var text: AttributedString
+    var text: String
     var isCorrect: Bool
 }
